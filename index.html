@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="MenuApp">
+  <head>
+    <meta charset="utf-8">
+    <!-- link rel="stylesheet" href="css/styles.css"-->
+    <title>Week 4 solution</title>
+    <!-- Libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+    <!-- Modules -->
+    <script src="src/data/data.module.js"></script>
+    <script src="src/menuapp/menuapp.module.js"></script>
+    <!-- Artifacts -->
+    <script src="src/menuapp/menuapp.controller.js"></script>
+    <script src="src/menuapp/categories.component.js"></script>
+    <script src="src/data/menudata.service.js"></script>
+    <!-- Routes -->
+    <script src="src/routes.js"></script>
+
+    <title>Week 4 solution</title>
+  </head>
+  <body>
+    <h1>Week 4 solution</h1>
+    <!-- <div ng-controller="DataController as ctrl"> -->
+      <ui-view></ui-view>
+      <!-- <categories categories='ctrl.categories'></categories> -->
+    <!-- </div> -->
+  </body>
+</html>
